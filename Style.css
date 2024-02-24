@@ -55,13 +55,15 @@ color: darkblue;
 
 .breadcrumb {
     text-align: left;
+    color: darkgreen;
    }
 
 .breadcrumb li {
     display: inline;
+    color: darkgreen;
 }
 
 .breadcrumb li+li::before {
-    color: black;
+    color: darkgreen;
     content: ">";
 }
