@@ -71,7 +71,6 @@ color: darkblue;
 }
 
 .breadcrumb:hover {
-    background-color: blue;
     color: lightgreen;
     cursor: pointer;
 }
