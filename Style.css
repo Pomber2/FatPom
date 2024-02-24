@@ -1,0 +1,53 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia;
+    color: beige;
+}
+a {
+    color: antiquewhite;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size:  24px;
+}
+h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size:  12px;
+}
+* {
+    background-color: dimgrey;
+    
+}
+ul {
+    color: beige;
+}
+.page2 {
+    font-style: bold;
+}
+#contact {
+    bottom: 10px;
+    display: static;
+    margin: auto;
+    color: darkblue;
+}
+#website {
+margin-top: 500px;
+color: darkblue;
+}
