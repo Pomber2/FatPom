@@ -69,3 +69,9 @@ color: darkblue;
     color: black;
     content: ">";
 }
+
+.breadcrumb:hover {
+    background-color: blue;
+    color: lightgreen;
+    cursor: pointer;
+}
