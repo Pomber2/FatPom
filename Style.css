@@ -56,9 +56,10 @@ color: darkblue;
 .breadcrumb {
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+    font-size: smaller;
     font-weight: 100;
     color: darkgreen;
+    text-decoration: none;
    }
 
 .breadcrumb li {
@@ -68,9 +69,16 @@ color: darkblue;
 .breadcrumb li+li::before {
     color: black;
     content: ">";
+    text-decoration: none;
 }
 
-.breadcrumb:hover {
+.breadcrumblist:hover {
     color: lightgreen;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.breadcrumb:active {
+    color: darkgreen;
+    text-decoration: none;
 }
