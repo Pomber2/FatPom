@@ -87,9 +87,6 @@ color: darkblue;
     
 }
 
-.breadcrumblist a:visited {
-    color: blueviolet;
-}
 
 .breadcrumblist a{
     text-decoration: none;
