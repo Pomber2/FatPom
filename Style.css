@@ -84,8 +84,11 @@ color: darkblue;
 
 .breadcrumblist a:active {
     color: darkgreen;
-
     
+}
+
+.breadcrumblist a:visited {
+    color: blueviolet;
 }
 
 .breadcrumblist a{
