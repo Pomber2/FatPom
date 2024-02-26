@@ -119,6 +119,7 @@ h1.comingsoon {
     border-radius: 30px;
     padding: 20px 20px; 
     margin-top: 20%;
+    text-align: center;
 }
 .hero_image {
     background-image: url("media/fathand.png");
