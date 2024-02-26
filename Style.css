@@ -6,10 +6,10 @@ h4,
 h5,
 h6 {
     font-family: Georgia;
-    color: beige;
+    color: #0025E6;
 }
 a {
-    color: antiquewhite;
+    color: #E63900;
 }
 h1 {
     text-align: center;
@@ -33,7 +33,7 @@ h5 {
     font-size:  12px;
 }
 * {
-    background-color: black;
+    background-color: #67E600;
     
 }
 ul {
