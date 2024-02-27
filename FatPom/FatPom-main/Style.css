@@ -67,11 +67,11 @@ div.container {
 }
 
 .breadcrumb {
-    text-align: left;
+    text-align: right;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: large;
-    padding: 10px 16px;
+    padding-right: 20px;
     font-variant: small-caps;
     font-size: large;
     opacity: 90%;
@@ -102,7 +102,7 @@ div.container {
 
 .breadcrumblist__link--active {
     text-decoration: none;
-    
+        
 }
 
 
@@ -147,11 +147,15 @@ h1.comingsoon {
 }
 
 #website {
-    
+    margin-left: 50px;
     color: #e63a008d;
 }
 
 #Contact {
-    
+    margin-right: 50px;
     color: #e63a008d;
+}
+#ending {
+    display: flex;
+    justify-content: space-between;
 }
