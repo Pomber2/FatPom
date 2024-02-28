@@ -1,3 +1,82 @@
+/* Directory 
+
+1. Hero
+2. Breadcrumb
+3. Header
+4. Body
+5. Footer
+6. Styling */
+
+
+
+/* 1. Hero */
+
+.hero_image {
+    background-image: url("media/fathand.png");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    
+    
+
+}
+.hero_body {
+    text-align: right;
+    position: relative;
+   top: 5%;
+   
+}
+
+/* 2. Breadcrumb */
+
+.breadcrumb {
+    text-align: right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding-right: 20px;
+    font-variant: small-caps;
+    font-size: large;
+    opacity: 90%;
+    color: #67E600;    
+   }
+
+.breadcrumblist {
+    display: inline;
+    color: #E63900;
+}
+
+/* 3. Header */
+
+.breadcrumb li:not(:last-child):after
+ {
+    padding: 10px;
+    color: #ccc;
+    content: "/";
+}
+
+.breadcrumblist a:hover {
+    color: #67E600;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+.breadcrumblist__link--active {
+    text-decoration: none;
+        
+}
+
+
+.breadcrumblist a{
+    text-decoration: none;
+    color: #E63900;
+}
+
+/* 4. Body */
+
 body {
     background-color: #0026E6;
     margin: auto;
@@ -38,6 +117,48 @@ h5 {
     font-size:  12px;
 }
 
+div.container {
+    
+    text-align: center;
+    background-color: #E63900;
+    margin: 80px;
+    padding: 15px;
+}
+
+div.container-games {
+    text-align: center;
+    background-color: #E63900;
+    margin: 80px;
+    padding: 15px;
+}
+
+div.home-list {
+    text-align: center;
+    background-color: #67E600;
+    color: #67E600;
+    margin: 80px;
+    padding: 15px;
+}
+div.container-res {
+    text-align: center;
+    background-color:#E63900;
+    color: #67E600;
+    margin: 80px;
+    padding: 15px;
+}
+
+/* 5. Footer */
+
+.footer {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    color: #E63900;
+    background-color: #ffffff3a;
+}
+
+/* 6. Styling */
+
 ul {
     color:#E63900;
     text-align: left;
@@ -57,75 +178,8 @@ ul li, ol li {
     margin-bottom: 30px;
 }
 
-div.container {
-    
-    text-align: center;
-    background-color: #E63900;
-    margin: 80px;
-    padding: 15px;
-}
-div.container-games {
-    text-align: center;
-    background-color: #E63900;
-    margin: 80px;
-    padding: 15px;
-}
-
-div.home-list {
-    text-align: center;
-    background-color: #67E600;
-    color: #67E600;
-    margin: 80px;
-    padding: 15px;
-}
-
 .page2 {
     font-style: bold;
-}
-
-.breadcrumb {
-    text-align: right;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    font-size: large;
-    padding-right: 20px;
-    font-variant: small-caps;
-    font-size: large;
-    opacity: 90%;
-    color: #67E600;
-    
-       
-    
-   }
-
-.breadcrumblist {
-    display: inline;
-    color: #E63900;
-}
-
-.breadcrumb li:not(:last-child):after
- {
-    padding: 10px;
-    color: #ccc;
-    content: "/";
-}
-
-.breadcrumblist a:hover {
-    color: #67E600;
-    cursor: pointer;
-    text-decoration: underline;
-    
-}
-
-.breadcrumblist__link--active {
-    text-decoration: none;
-        
-}
-
-
-.breadcrumblist a{
-    text-decoration: none;
-    color: #E63900;
 }
 
 h1.comingsoon {
@@ -138,31 +192,6 @@ h1.comingsoon {
     margin-top: 20%;
     text-align: center;
     cursor: not-allowed;
-}
-.hero_image {
-    background-image: url("media/fathand.png");
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 80%;
-    
-    
-
-}
-.hero_body {
-    text-align: right;
-    position: relative;
-   top: 5%;
-   
-}
-
-.footer {
-    display: inline-flex;
-    justify-content: space-between;
-    margin-top: 10%;
-    color: #E63900;
-    background-color: #ffffff3a;
 }
 
 #website {
@@ -193,4 +222,10 @@ h1.comingsoon {
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
+}
+
+.link-res {
+    color: blue;
+    background-color: grey;    
+    
 }
