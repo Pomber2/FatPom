@@ -40,11 +40,11 @@
     font-variant: small-caps;
     font-size: large;
     opacity: 90%;
-    color: #67E600;    
-   }
+    color: #67E600;
+}
 
 .breadcrumblist {
-    display: inline;
+    display: inline;    
     color: #E63900;
 }
 
@@ -123,6 +123,7 @@ div.container {
     background-color: #E63900;
     margin: 80px;
     padding: 15px;
+    border-radius: 15px;
 }
 
 div.container-games {
@@ -130,6 +131,7 @@ div.container-games {
     background-color: #E63900;
     margin: 80px;
     padding: 15px;
+    border-radius: 15px;
 }
 
 div.home-list {
@@ -138,6 +140,7 @@ div.home-list {
     color: #67E600;
     margin: 80px;
     padding: 15px;
+    border-radius: 15px;
 }
 div.container-res {
     text-align: center;
@@ -145,7 +148,46 @@ div.container-res {
     color: #67E600;
     margin: 80px;
     padding: 15px;
+    border-radius: 15px;
 }
+div.container-blog {
+    background-color: rgba(230, 57, 0, 90%);
+    
+    border-radius: 20px;
+    padding: 5px 15px ;
+    margin: 15px;
+ }
+ div.title-dayone {
+    display: inline-flex;
+    margin: 20px;
+ }
+
+aside.to-do {
+    width: 15%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5pm -5px #E63900;
+    font-style: italic;
+    color: #67E600;
+    display: block;
+    background-color: #e66f00;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+
+aside.todo > p.dayone {
+    margin: 0.5rem;
+    
+}
+
+p.day-one, p.day-two {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #67E600;
+    letter-spacing: 2px;
+    padding: 5px 15px ;
+    margin: 15px;
+  }
 
 /* 5. Footer */
 
@@ -164,7 +206,7 @@ ul {
     text-align: left;
     font-size: x-large;
     font-weight: 600;
-    display: inline-block;
+    
     
 }
 ol {
@@ -172,7 +214,7 @@ ol {
     text-align: left;
     font-size: x-large;
     font-weight: 600;
-    display: inline-block;
+    
 }
 ul li, ol li {
     margin-bottom: 30px;
@@ -228,4 +270,65 @@ h1.comingsoon {
     color: blue;
     background-color: grey;    
     
+}
+
+ul.blog, li.blog {
+    line-height: 20%;
+}
+
+#to-do {
+    text-align: left;
+    color:#67E600;
+    letter-spacing: 0.5px;
+        
+}
+
+h3.which-day {
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+   
+}
+
+img#soo-logo {
+    width: 400px;
+    height: 150px;
+    float: left;
+    margin: 20px;
+    
+}
+
+h2.subtitle-blog {
+    float: right;
+    justify-content: center;
+    padding-left: 30%;
+   
+}
+
+#Feature {
+    font-family: cursive;
+    color: #2d5b08;
+    background-color: #67E600;
+    border-radius: 30px;
+    padding: 0.3rem;
+    margin: 0.5rem;
+}
+
+h1.title-blog {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #2d5b08;
+}
+
+.day-out img {
+    opacity: 85%;
+    float: left;
+    margin-right: 12px;
+}
+
+.day-out p.day-one {
+    text-align: left;
+    display: block;
+    margin-left: 2px;
 }
