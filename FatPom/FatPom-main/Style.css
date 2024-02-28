@@ -118,7 +118,7 @@ h5 {
 }
 
 div.container {
-    
+    width: auto;
     text-align: center;
     background-color: #E63900;
     margin: 80px;
@@ -142,6 +142,7 @@ div.home-list {
     padding: 15px;
     border-radius: 15px;
 }
+
 div.container-res {
     text-align: center;
     background-color:#E63900;
@@ -150,6 +151,7 @@ div.container-res {
     padding: 15px;
     border-radius: 15px;
 }
+
 div.container-blog {
     background-color: rgba(230, 57, 0, 90%);
     
@@ -157,6 +159,7 @@ div.container-blog {
     padding: 5px 15px ;
     margin: 15px;
  }
+ 
  div.title-dayone {
     display: inline-flex;
     margin: 20px;
