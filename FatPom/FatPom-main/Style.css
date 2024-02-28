@@ -39,7 +39,7 @@ h5 {
 }
 
 ul {
-    color: #E63900;
+    color:#E63900;
     text-align: left;
     font-size: x-large;
     font-weight: 600;
@@ -60,6 +60,23 @@ ul li, ol li {
 div.container {
     
     text-align: center;
+    background-color: #E63900;
+    margin: 80px;
+    padding: 15px;
+}
+div.container-games {
+    text-align: center;
+    background-color: #E63900;
+    margin: 80px;
+    padding: 15px;
+}
+
+div.home-list {
+    text-align: center;
+    background-color: #67E600;
+    color: #67E600;
+    margin: 80px;
+    padding: 15px;
 }
 
 .page2 {
@@ -120,6 +137,7 @@ h1.comingsoon {
     padding: 20px 20px; 
     margin-top: 20%;
     text-align: center;
+    cursor: not-allowed;
 }
 .hero_image {
     background-image: url("media/fathand.png");
@@ -144,6 +162,7 @@ h1.comingsoon {
     justify-content: space-between;
     margin-top: 10%;
     color: #E63900;
+    background-color: #ffffff3a;
 }
 
 #website {
@@ -158,4 +177,20 @@ h1.comingsoon {
 #ending {
     display: flex;
     justify-content: space-between;
+}
+
+.link-home {
+    color: blue;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.link-game {
+    color: blue;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
