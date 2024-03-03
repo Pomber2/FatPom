@@ -166,7 +166,7 @@ div.container-blog {
  }
 
 aside.to-do {
-    width: 15%;
+    max-width: 15%;
     padding-left: 0.5rem;
     margin-left: 0.5rem;
     float: right;
@@ -177,6 +177,7 @@ aside.to-do {
     background-color: #e66f00;
     letter-spacing: 2px;
     border-radius: 20px;
+    overflow: auto;
 }
 
 aside.todo > p.dayone {
@@ -200,6 +201,7 @@ p.day-one, p.day-two {
     margin-top: 10%;
     color: #E63900;
     background-color: #ffffff3a;
+    opacity: 0.8;
 }
 
 /* 6. Styling */
@@ -315,6 +317,7 @@ h2.subtitle-blog {
     border-radius: 30px;
     padding: 0.3rem;
     margin: 0.5rem;
+    opacity: 0.7;
 }
 
 h1.title-blog {
@@ -334,4 +337,9 @@ h1.title-blog {
     text-align: left;
     display: block;
     margin-left: 2px;
+}
+
+img.Soo-locks {
+    border-radius: 100%;
+    opacity: 0.7;
 }
