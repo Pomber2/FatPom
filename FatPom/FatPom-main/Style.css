@@ -152,15 +152,15 @@ div.container-res {
     border-radius: 15px;
 }
 
-div.container-blog {
+div.container-blog, .container-blog2 {
     background-color: rgba(230, 57, 0, 90%);
     
     border-radius: 20px;
     padding: 5px 15px ;
     margin: 15px;
  }
- 
- div.title-dayone {
+
+div.title-dayone {
     display: inline-flex;
     margin: 20px;
  }
